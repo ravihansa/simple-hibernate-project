@@ -22,4 +22,20 @@ public class StudentManager {
 		session.close();
 
 	}
+	
+	public void saveStudentsMarks(StudentsMarks studentmark) {
+
+		SessionFactory sessionFactory = HibernateSession.getSessionFactory();
+
+		Session session = sessionFactory.openSession();
+
+		Transaction tx = session.beginTransaction();
+
+		session.save(studentmark);
+
+		tx.commit();
+
+		session.close();
+
+	}
 }
