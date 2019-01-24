@@ -12,7 +12,7 @@ public class StudentsMarks {
 
 	@Id
 	@GeneratedValue
-	//@Column(name = "reg_no")
+	@Column(name = "reg_no")
 	int registrationNo;
 
 	@Column(name = "science")

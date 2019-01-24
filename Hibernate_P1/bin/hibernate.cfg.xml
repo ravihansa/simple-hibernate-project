@@ -24,9 +24,10 @@
 		<property name="hbm2ddl.auto">update</property>
 
 		<mapping class="package_1.Student"></mapping>
+		<mapping class="package_1.StudentsMarks"></mapping>
 
 
 	</session-factory>
-dddddddddddddddddddddddddd
+
 </hibernate-configuration>
         
